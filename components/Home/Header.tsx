@@ -3,8 +3,9 @@ import { CustomMaterialCommunityIcon, CustomMaterialIcon } from '../CustomIcon'
 
 const Header = () => {
   return (
-    <View className="w-full px-6 py-2 items-center justify-between flex-row bg-primary">
-          <View className="items-center justify-center p-2 bg-primary/50 rounded-full">
+    <View className='bg-primary px-6 py-3 w-full gap-y-6'>
+      <View className="w-full items-center justify-between flex-row">
+          <View className="items-center justify-center p-2 bg-muted rounded-full">
             <CustomMaterialCommunityIcon
               name="image-plus"
               color="white"
@@ -23,6 +24,11 @@ const Header = () => {
             </View>
           </View>
         </View>
+
+        <View>
+          <Text className='text-white text-lg font-semibold'> Olá Judelin </Text>
+        </View>
+    </View>
   )
 }
 
