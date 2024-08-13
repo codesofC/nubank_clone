@@ -78,3 +78,14 @@ export const MORE = [
         route: ""
     },
 ]
+
+export const CRIPTOSDATA = [
+    {
+        name: "Nucoin",
+        image: 'https://nucoin.andersu.dev/nucoin.png'
+    },
+    {
+        name: "Bitcoin",
+        image: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png'
+    }
+]

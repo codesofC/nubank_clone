@@ -17,11 +17,11 @@ export default function Index() {
   return (
     <>
       <StatusBar style="light" backgroundColor="#9c44dc" />
-      <SafeAreaView className="flex-1">
+      <SafeAreaView className="flex-1 bg-background">
         <ScrollView className="w-full flex-1">
           <Header />
           <View className="divide-y divide-gray-300">
-            <View className="flex-1 w-full bg-background px-6 py-4">
+            <View className="flex-1 w-full px-6 py-4">
               <TouchableOpacity
                 activeOpacity={0.5}
                 className="w-full flex-row justify-between mb-6"
