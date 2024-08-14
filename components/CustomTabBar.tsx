@@ -19,9 +19,9 @@ export function CustomTabBar({
         }}
       />
     ),
-    investment: (props: any) => <FontAwesome6 name="dollar" {...props} />,
+    investment: (props: any) => <FontAwesome6 name="dollar-sign" {...props} />,
     market: (props: any) => (
-      <MaterialCommunityIcons name="shopping-outline" {...props} />
+      <FontAwesome6 name="bag-shopping" {...props} />
     ),
   };
 
@@ -31,7 +31,8 @@ export function CustomTabBar({
   });
 
   return (
-    <View className="absolute bottom-4 flex-row w-1/2 items-center justify-between bg-secondary/95 backdrop-blur-xl left-28 rounded-full border">
+    <View className="absolute bottom-4 flex-row w-1/2 items-center justify-between bg-secondary/95 backdrop-blur-xl left-28 rounded-full p-1 shadow-md"
+    >
       {filteredRoutes.map((route, index) => {
         const { options } = descriptors[route.key];
         const label =
@@ -72,19 +73,15 @@ export function CustomTabBar({
             onPress={onPress}
             onLongPress={onLongPress}
             key={route.name}
-            className="px-5 py-4 rounded-full"
-            style={{
-              backgroundColor: isFocused ? "#9c44dc" : "transparent",
-              borderColor: isFocused ? "#9c44dc" : "transparent",
-            }}
+            className={`px-5 py-4 rounded-full ${isFocused ? "bg-muted/30 border border-[#bc8ae180" : "transparent text-secondary-foreground/60"}`}
           >
             <Text
-              className={isFocused ? 'text-secondary/70' : 'text-secondary-foreground/80' }
+              className={isFocused ? 'text-primary' : 'text-secondary-foreground/80' }
               style={{
                 transform: [{ rotate: route.name === 'index' ? '90deg' : '0deg' }],
               }}
             >
-              {icons[`${route.name as IconsRoutesProps}`]({ size: 25 })}
+              {icons[`${route.name as IconsRoutesProps}`]({ size: 22 })}
             </Text>
           </TouchableOpacity>
         );

@@ -17,9 +17,15 @@ export default function Index() {
   return (
     <>
       <StatusBar style="light" backgroundColor="#9c44dc" />
-      <SafeAreaView className="flex-1 bg-background">
+      <SafeAreaView className="flex-1">
         <ScrollView className="w-full flex-1">
           <Header />
+          <View className="bg-primary px-6 py-4">
+            <Text className="text-white text-lg font-semibold">
+              {" "}
+              Olá Judelin{" "}
+            </Text>
+          </View>
           <View className="divide-y divide-gray-300">
             <View className="flex-1 w-full px-6 py-4">
               <TouchableOpacity
@@ -78,7 +84,7 @@ export default function Index() {
                 <CustomMaterialIcon name="keyboard-arrow-right" color="gray" />
               </TouchableOpacity>
             </View>
-            <View>
+            <View className="mb-16">
               <Discover />
             </View>
           </View>

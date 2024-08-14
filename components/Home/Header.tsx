@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <View className='bg-primary px-6 py-3 w-full gap-y-6'>
       <View className="w-full items-center justify-between flex-row">
-          <View className="items-center justify-center p-2 bg-muted rounded-full">
+          <View className="items-center justify-center p-2 bg-muted/50 rounded-full">
             <CustomMaterialCommunityIcon
               name="image-plus"
               color="white"
@@ -23,10 +23,6 @@ const Header = () => {
               <CustomMaterialIcon name="supervised-user-circle" color="white" />
             </View>
           </View>
-        </View>
-
-        <View>
-          <Text className='text-white text-lg font-semibold'> Olá Judelin </Text>
         </View>
     </View>
   )

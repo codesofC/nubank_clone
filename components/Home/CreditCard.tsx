@@ -20,8 +20,8 @@ const CreditCard = () => {
         <Text>
             A fatura nem fechou e já pesou? Parcele parte do valor e alivie a fatura.
         </Text>
-        <Pressable className="p-2 rounded-full bg-gray-400 mt-4">
-            <Text className="font-semibold text-white"> Aliviar fatura </Text>
+        <Pressable className="p-2 rounded-full bg-gray-200 mt-4">
+            <Text className="font-semibold text-secondary-foreground"> Aliviar fatura </Text>
         </Pressable>
       </View>
     </TouchableOpacity>

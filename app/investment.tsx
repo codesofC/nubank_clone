@@ -9,7 +9,7 @@ const investment = () => {
   return (
     <>
       <StatusBar style="light" backgroundColor="#9c44dc" />
-      <SafeAreaView className="flex-1 bg-background">
+      <SafeAreaView className="flex-1">
         <ScrollView className="w-full flex-1">
           <Header />
           <View className="divide-y divide-gray-300">

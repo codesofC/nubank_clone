@@ -89,3 +89,117 @@ export const CRIPTOSDATA = [
         image: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png'
     }
 ]
+
+export const INSURANCES = [
+    {
+        name: "Seguro Vida",
+        icon: <CustomMaterialCommunityIcon name="heart-outline" size={22} />,
+        isNew: false,
+        route: ""
+    },
+    {
+        name: "Seguro Celular",
+        icon: <CustomMaterialCommunityIcon name="cellphone" size={22} />,
+        isNew: false,
+        route: ""
+    },
+    {
+        name: "Seguro Auto",
+        icon: <CustomMaterialCommunityIcon name="car-outline" size={22} />,
+        isNew: true,
+        route: ""
+    },
+    {
+        name: "Seguro Vida",
+        icon: <CustomMaterialCommunityIcon name="home-variant-outline" size={22} />,
+        isNew: true,
+        route: ""
+    },
+]
+export const STOREMENU = [
+    {
+        title: "Pedidos",
+        icon: <CustomMaterialCommunityIcon name="truck-delivery-outline" size={20} color="white" />,
+        route: ""
+    },
+    {
+        title: "Cashback",
+        icon: <FontAwesome6 name="dollar-sign" size={20} color="white" />,
+        route: ""
+    },
+    {
+        title: "Lojas",
+        icon: <CustomMaterialCommunityIcon name="office-building" size={20} color="white" />,
+        route: ""
+    },
+    {
+        title: "Gift Cards",
+        icon: <CustomMaterialCommunityIcon name="wallet-giftcard" size={20} color="white" />,
+        route: ""
+    },
+    {
+        title: "Serviços",
+        icon: <CustomMaterialCommunityIcon name="toolbox" size={20} color="white" />,
+        route: ""
+    },
+    
+]
+
+export const CASHBACKS = [
+    {
+        platform: {
+            name: "Udemy",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/800px-Udemy_logo.svg.png"
+        },
+        value: 13
+    },
+    {
+        platform: {
+            name: "Forever Liss",
+            logo: "https://atendimento.foreverliss.com.br/hc/theming_assets/01J1QVNTDKWBBRAF979C8SVM9T"
+        },
+        value: 15
+    },
+    {
+        platform: {
+            name: "Udemy",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/800px-Udemy_logo.svg.png"
+        },
+        value: 13
+    },
+    {
+        platform: {
+            name: "Insider",
+            logo: "https://www.insiderstore.com.br/cdn/shop/files/Group_4.png?v=1713295054"
+        },
+        value: 13
+    },
+    {
+        platform: {
+            name: "Vivara",
+            logo: "https://logodownload.org/wp-content/uploads/2019/10/vivara-logo-0.png"
+        },
+        value: 13
+    },
+    {
+        platform: {
+            name: "Adcos",
+            logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQmxjRMtW0yLHyEHMgiRquk69AGaxI_8XaDQ&s"
+        },
+        value: 13
+    },
+    {
+        platform: {
+            name: "Dzarm",
+            logo: "https://logodownload.org/wp-content/uploads/2020/01/dzarm-logo-0.png"
+        },
+        value: 9.4
+    },
+    {
+        platform: {
+            name: "Fila",
+            logo: "https://cdn.shopify.com/s/files/1/0558/6413/1764/files/Rewrite_Fila_Logo_Design_History_Evolution_0_1024x1024.jpg?v=1694712230"
+        },
+        value: 5.5
+    },
+]

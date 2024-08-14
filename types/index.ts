@@ -12,8 +12,16 @@ export interface OperationsHomeProps {
 
 export interface MoreInfosProps {
   image: string;
-  title: string,
+  title: string;
   description: string;
   action: string;
   route?: string;
+}
+
+export interface CashBacksProps {
+  platform: {
+    name: string;
+    logo: string;
+  };
+  value: number;
 }
