@@ -6,7 +6,7 @@ import { OperationsHomeProps } from "@/types";
 const OperationsContainer = () => {
   const renderItem = ({ item }: { item: OperationsHomeProps }) => (
     <View className="gap-y-3 items-center mr-4">
-      <Pressable className="relative p-4 rounded-full bg-gray-200">
+      <Pressable className="relative p-6 rounded-full bg-gray-200">
         {item.icon}
         {item.extra && (
           <Text className="bg-primary p-[1px] rounded-sm text-sm absolute -bottom-2 text-center text-white">
@@ -25,6 +25,7 @@ const OperationsContainer = () => {
       renderItem={renderItem}
       keyExtractor={(_item, index) => index.toString()}
       horizontal
+      showsHorizontalScrollIndicator={false}
     />
   );
 };

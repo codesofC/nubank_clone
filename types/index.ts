@@ -25,3 +25,11 @@ export interface CashBacksProps {
   };
   value: number;
 }
+
+export interface STORE_PRODUCTSProps {
+  image: string;
+  name: string;
+  color: string;
+  price: number;
+  cashback: number;
+}

@@ -9,7 +9,7 @@ export default function RootLayout() {
     >
       <Tabs.Screen name="index" options={{tabBarLabel: "Home"}} />
       <Tabs.Screen name="investment" options={{tabBarLabel: "Investment"}} />
-      <Tabs.Screen name="market" options={{tabBarLabel: "Market"}} />
+      <Tabs.Screen name="store" options={{tabBarLabel: "Store"}} />
     </Tabs>
   );
 }

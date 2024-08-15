@@ -203,3 +203,56 @@ export const CASHBACKS = [
         value: 5.5
     },
 ]
+
+export const HERO_IMG = [
+    "https://febrai.com.br/uploads/2024/07/nubank-oferece-ate-10-de-cashback-no-amazon-prime-day.webp",
+    "https://global.discourse-cdn.com/nubank/optimized/4X/7/7/a/77a432eecdda810752664a658d9c133a38fe541d_2_690x395.jpeg",
+    "https://pronatec.pro.br/wp-content/uploads/2022/12/Cashback-Nubank.jpg.webp",
+    "https://www.mobills.com.br/blog/wp-content/uploads/2022/12/imagem-destaque-cashback-nubank-mobills.png",
+
+]
+
+export const STORE_PRODUCTS = [
+    {
+      image: "https://mobileview.pt/wp-content/uploads/2023/03/iphone-13-pro-graphite-select.png",
+      name: "iPhone 13 Pro",
+      color: "Space Gray",
+      price: 6499.99,
+      cashback: 104.40
+    },
+    {
+      image: "https://istore.co.na/cdn/shop/products/iPhone13_mini_Starlight_1200x.png?v=1661330897",
+      name: "iPhone 13",
+      color: "Starlight",
+      price: 5499.99,
+      cashback: 83.87
+    },
+    {
+      image: "https://images.stockx.com/images/Apple-iPhone-12-Pro-Max-A2411-Global-Version-Pacific-Blue.png?fit=fill&bg=FFFFFF&w=140px&h=75px&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1613765566&q=60",
+      name: "iPhone 12 Pro",
+      color: "Pacific Blue",
+      price: 5999.99,
+      cashback: 91.60
+    },
+    {
+      image: "https://loja.imsolutionpe.com.br/wp-content/uploads/2021/10/iphone-12-red-select-2020-1-2.png",
+      name: "iPhone 12",
+      color: "Coral",
+      price: 4999.99,
+      cashback: 48.87
+    },
+    {
+      image: "https://mobileview.pt/wp-content/uploads/2013/06/iphone-11-green-site-1-1.png",
+      name: "iPhone 11 Pro",
+      color: "Midnight Green",
+      price: 4499.99,
+      cashback: 48.87
+    },
+    {
+      image: "https://www.oficinadanet.com.br/imagens/galeria/544/thumb/iphone-se-red-select-2020-geo-br.png",
+      name: "iPhone SE",
+      color: "Red",
+      price: 3499.99,
+      cashback: 35.27
+    }
+  ];

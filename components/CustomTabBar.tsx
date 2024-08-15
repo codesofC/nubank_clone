@@ -2,7 +2,7 @@ import { FontAwesome6, MaterialCommunityIcons } from "@expo/vector-icons";
 import { BottomTabBarProps } from "@react-navigation/bottom-tabs";
 import { View, Text, TouchableOpacity } from "react-native";
 
-type IconsRoutesProps = "index" | "investment" | "market";
+type IconsRoutesProps = "index" | "investment" | "store";
 
 export function CustomTabBar({
   state,
@@ -20,7 +20,7 @@ export function CustomTabBar({
       />
     ),
     investment: (props: any) => <FontAwesome6 name="dollar-sign" {...props} />,
-    market: (props: any) => (
+    store: (props: any) => (
       <FontAwesome6 name="bag-shopping" {...props} />
     ),
   };
@@ -73,7 +73,7 @@ export function CustomTabBar({
             onPress={onPress}
             onLongPress={onLongPress}
             key={route.name}
-            className={`px-5 py-4 rounded-full ${isFocused ? "bg-muted/30 border border-[#bc8ae180" : "transparent text-secondary-foreground/60"}`}
+            className={`px-5 py-4 rounded-full ${isFocused ? "bg-muted/30" : "transparent text-secondary-foreground/60"}`}
           >
             <Text
               className={isFocused ? 'text-primary' : 'text-secondary-foreground/80' }
