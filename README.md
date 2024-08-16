@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+<img src="" alt="image description" width="20%" style="display:block; margin: 0 auto;">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<h1 style="text-align: center;"> Nubank Mobile App Clone </h1>
 
-## Get started
+This project is a frontend clone of the Nubank mobile app, focusing on replicating the user interface of the tab pages. It showcases the design and layout of the original app, providing a visually accurate representation of the Nubank experience. The clone is built using modern web technologies and aims to demonstrate proficiency in frontend development and UI/UX design.
 
-1. Install dependencies
+## 👩🏾‍💻 Technologies
+- `Expo`
+- `React-native`
+- `Typescript`
+- `Tailwind CSS`
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🚦 Run the project
+To run the project in your local environment, follow these steps:
+- Clone the repository to your local machine. `git clone https://github.com/codesofC/nubank_clone`
+- Run `npm install` or `yarn` in the project directory to install the required dependencies.
+- Run `npx expo start` or `npm start` to get the project started.
+- Open your emulator or device and access the application via Expo Go.
+  
+## 🖼 Demo Images
