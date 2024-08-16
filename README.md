@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;"> Nubank Mobile App Clone </h1>
 
-This project is a frontend clone of the Nubank mobile app, focusing on replicating the user interface of the tab pages. It showcases the design and layout of the original app, providing a visually accurate representation of the Nubank experience. The clone is built using modern web technologies and aims to demonstrate proficiency in frontend development and UI/UX design.
+This project is a frontend clone of the Nubank mobile app, focusing on replicating the user interface of the tab pages. It showcases the design and layout of the original app, providing a visually accurate representation of the Nubank experience. The clone is built using modern web technologies.
 
 ## 👩🏾‍💻 Technologies
 - `Expo`
